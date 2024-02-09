@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         padding: 10,
         borderRadius: 10,
-        backgroundColor: 'red',
     },
     input2:{
         width: 300,
@@ -56,7 +55,6 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         padding: 10,
         borderRadius: 10,
-        backgroundColor: 'red',
         textAlign: 'center'
     },
     labelInput: {
@@ -71,7 +69,7 @@ const styles = StyleSheet.create({
         gap: 10,
         marginTop: 50,
         borderWidth: 2,
-        borderRadius: 10,
+        borderRadius: 5,
         left: 89   
     },
 });
