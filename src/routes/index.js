@@ -46,7 +46,7 @@ export default function App() {
 
             <Tab.Screen
                 name='Cursos'
-                component={Cursos}
+                component={StackRoutes}
                 options={{
                     title: 'Cursos',
                     headerTintColor: 'red',

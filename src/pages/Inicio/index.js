@@ -11,7 +11,7 @@ export default function Inicio() {
 
         <View style={styles.card}>
           <View style={styles.centalizarImg}>
-            <Image style={{ width: 200, height: 50, marginTop: 20, }} source={logo}></Image>
+            <Image style={{ width: 200, height: 50, marginTop: 20, left: 20 }} source={logo}></Image>
 
             <Text style={styles.text}>ALUNO: Henry Silva</Text>
             <Text style={styles.text1}>Sumaré, 07/02/2024</Text>
@@ -33,15 +33,15 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    backgroundColor: 'Gray',
+    backgroundColor: 'grey',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 5,
   },
   card: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: 'white',
     borderRadius: 10,
-    padding: 30,
+    padding: 72,
     shadowColor: '#000',
     shadowOffset: {
         width: 0,
@@ -50,14 +50,19 @@ const styles = StyleSheet.create({
     marginTop: 150
   },
   centalizarImg: {
-    alignItems: 'center',
+    alignItems: 'left',
   },
   text: {
     marginTop: 50,
+    fontSize: 17,
+    fontWeight: 'bold',
+    textAlign: 'left',
   },
   text1: {
     marginTop: 15,
-    alignItems:'center',
-    textAlign: 'center',
+    alignItems:'left',
+    textAlign: 'left',
+    fontSize: 17,
+    fontWeight: 'bold',
   }
 });
